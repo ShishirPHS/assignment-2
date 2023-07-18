@@ -24,6 +24,19 @@ body {
   padding: 21px 40px;
 }
 
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.section-description {
+  color: #534c64;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 /* nav part css start */
 .nav {
   padding: 37px 0;
@@ -164,3 +177,25 @@ body {
   margin-top: 19px;
 }
 /* banner part css end */
+
+/* online games part css start */
+.online-games {
+  margin: 120px 0;
+}
+
+.online-games .section-title {
+  text-align: center;
+}
+
+.online-games .section-title .different-color {
+  color: transparent;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.online-games .section-description {
+  text-align: center;
+  margin-top: 16px;
+}
+/* online games part css end */
