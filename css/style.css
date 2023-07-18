@@ -13,6 +13,17 @@ body {
   margin: 0 auto;
 }
 
+.btn-primary {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 21px 40px;
+}
+
 /* nav part css start */
 .nav {
   padding: 37px 0;
@@ -78,6 +89,13 @@ body {
 /* navbar part css end */
 
 /* banner part css start */
+.banner {
+  background-image: url("../images/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  background-position: left top;
+}
+
 .banner .container {
   display: flex;
   justify-content: space-between;
@@ -101,14 +119,48 @@ body {
   font-size: 5.9rem;
   font-weight: 800;
   text-transform: uppercase;
+  margin-top: 4px;
+  color: transparent;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.banner-content ul {
+  margin-top: 24px;
 }
 
 .banner-content ul li {
   list-style: none;
   display: flex;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.banner-content ul li:last-child {
+  margin-bottom: 0;
 }
 
 .banner-content ul li img {
   margin-right: 12px;
+  width: 24px;
+}
+
+.banner .buttons {
+  margin-top: 41px;
+}
+
+.banner .buttons .first-btn {
+  margin-right: 24px;
+}
+
+.banner .buttons .second-btn {
+  background: #4ec5f7;
+}
+
+.banner .banner-image img {
+  margin-top: 19px;
 }
 /* banner part css end */
