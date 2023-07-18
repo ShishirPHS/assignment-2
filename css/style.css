@@ -199,3 +199,24 @@ body {
   margin-top: 16px;
 }
 /* online games part css end */
+.online-games .cards {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.online-games .cards .card img {
+  margin-bottom: 24px;
+}
+
+.online-games .card-description {
+  max-width: 342px;
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.online-games .third-card-description {
+  max-width: 244px;
+}
