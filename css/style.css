@@ -198,7 +198,7 @@ body {
   text-align: center;
   margin-top: 16px;
 }
-/* online games part css end */
+
 .online-games .cards {
   margin-top: 48px;
   display: flex;
@@ -220,3 +220,11 @@ body {
 .online-games .third-card-description {
   max-width: 244px;
 }
+/* online games part css end */
+
+/* play instantly part css start */
+.play-instantly .container {
+  display: flex;
+  justify-content: flex-end;
+}
+/* play instantly part css end */
