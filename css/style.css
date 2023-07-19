@@ -272,3 +272,36 @@ body {
   right: 461px;
 }
 /* play instantly part css end */
+
+/* games name part css start */
+.games-name {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 106px 0;
+}
+
+.games-name .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.games-name .game {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #fff;
+  padding: 10px 20px 10px 10px;
+  margin: 14px 27px 14px 0;
+}
+
+.games-name .game-title {
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: 16px;
+}
+/* games name part css end */
