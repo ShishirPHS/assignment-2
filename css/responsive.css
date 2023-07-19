@@ -5,7 +5,8 @@
   }
 
   .nav .container,
-  .nav .menu ul {
+  .nav .menu ul,
+  .online-games .cards {
     flex-direction: column;
   }
 
@@ -51,6 +52,19 @@
 
   .banner-title {
     font-size: 5rem;
+  }
+
+  .online-games .cards {
+    align-items: center;
+  }
+
+  .online-games .cards .card {
+    margin-top: 40px;
+  }
+
+  .online-games .cards .card p {
+    margin: 16px auto 0;
+    text-align: center;
   }
 }
 
