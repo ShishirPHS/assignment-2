@@ -3,15 +3,20 @@
   .hide {
     display: none;
   }
-  /* banner part responsive css start */
-  .nav {
-    padding: 103px 0 60px;
-    box-shadow: none;
-  }
 
   .nav .container,
   .nav .menu ul {
     flex-direction: column;
+  }
+
+  .banner .container {
+    flex-direction: column-reverse;
+  }
+
+  /* navbar part responsive css start */
+  .nav {
+    padding: 103px 0 60px;
+    box-shadow: none;
   }
 
   .nav .logo {
@@ -20,6 +25,32 @@
 
   .nav .menu ul li {
     margin: 18px 0 18px 0;
+  }
+
+  /* banner part responsive css start */
+  .banner-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner .banner-image img {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 140px;
+  }
+
+  .banner-content {
+    align-items: center;
+  }
+
+  .banner-content h2 {
+    font-size: 3rem;
+    width: auto;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 5rem;
   }
 }
 
