@@ -321,3 +321,83 @@ body {
   transition: 0.4s all ease-in-out;
 }
 /* games name part css end */
+
+/* footer part css start */
+.footer {
+  background: #0b0223;
+  padding: 120px 0 130px;
+  justify-content: center;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer .logo .footer-title {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.footer .quick-links {
+  margin: 66px 0;
+}
+
+.footer .quick-links ul {
+  display: flex;
+}
+
+.footer .quick-links ul li {
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.footer .quick-links ul li a {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer .follow-us {
+  margin-bottom: 74px;
+}
+
+.footer .follow-us img {
+  margin: 0 20px;
+}
+
+.footer .footer-menu {
+  margin-bottom: 28px;
+}
+
+.footer .footer-menu ul {
+  display: flex;
+}
+
+.footer .footer-menu ul li {
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.footer .footer-menu ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer .copy-right p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* footer part css end */
