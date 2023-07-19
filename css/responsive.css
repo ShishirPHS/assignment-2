@@ -75,6 +75,8 @@
 
   .play-instantly .section-title {
     text-align: center;
+    width: auto;
+    padding: 0 15px;
   }
 
   .play-instantly .section-description {
@@ -178,7 +180,11 @@
   }
 
   .footer .copy-right p {
-    max-width: 258px;
+    display: none;
+  }
+
+  .footer .copy-right .p-two {
+    display: block;
     text-align: center;
   }
 }
