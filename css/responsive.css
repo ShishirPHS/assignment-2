@@ -52,6 +52,12 @@
     font-size: 5rem;
   }
 
+  .banner .buttons .first-btn {
+    margin-right: 24px;
+    margin-bottom: 10px;
+  }g
+
+  /* online games part responsive css start */
   .online-games .cards {
     align-items: center;
   }
@@ -241,6 +247,7 @@
     font-size: 5rem;
   }
 
+  /* online games part responsive css part start */
   .online-games .cards {
     align-items: center;
   }
