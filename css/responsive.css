@@ -1,5 +1,26 @@
 /* Responsive for Mobile Devices */
 @media screen and (max-width: 576.98px) {
+  .hide {
+    display: none;
+  }
+  /* banner part responsive css start */
+  .nav {
+    padding: 103px 0 60px;
+    box-shadow: none;
+  }
+
+  .nav .container,
+  .nav .menu ul {
+    flex-direction: column;
+  }
+
+  .nav .logo {
+    margin-bottom: 44px;
+  }
+
+  .nav .menu ul li {
+    margin: 18px 0 18px 0;
+  }
 }
 
 /* Responsive for Tablet Devices */
