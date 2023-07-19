@@ -223,8 +223,52 @@ body {
 /* online games part css end */
 
 /* play instantly part css start */
+.play-instantly {
+  margin-bottom: 120px;
+}
+
 .play-instantly .container {
   display: flex;
   justify-content: flex-end;
+}
+
+.play-instantly .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-instantly .section-title {
+  width: 341px;
+  text-align: right;
+}
+
+.play-instantly .section-description {
+  width: 353px;
+  text-align: right;
+  margin-top: 24px;
+}
+
+.play-instantly .different-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.play-instantly .images {
+  position: relative;
+  margin-left: 265px;
+}
+
+.play-instantly .images .big-img {
+  margin-bottom: 75px;
+}
+
+.play-instantly .images .small-img {
+  position: absolute;
+  top: 360px;
+  right: 461px;
 }
 /* play instantly part css end */
