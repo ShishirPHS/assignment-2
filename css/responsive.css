@@ -108,6 +108,8 @@
   .games-name {
     margin-top: -116px;
     padding: 70px 0;
+    position: relative;
+    z-index: 1;
   }
 
   .games-name .game {
