@@ -165,6 +165,10 @@ body {
   margin-top: 41px;
 }
 
+.banner .buttons button {
+  cursor: pointer;
+}
+
 .banner .buttons .first-btn {
   margin-right: 24px;
 }
@@ -294,8 +298,19 @@ body {
   align-items: center;
   border-radius: 50px;
   background: #fff;
-  padding: 10px 20px 10px 10px;
+  padding: 8px 18px 8px 8px;
   margin: 14px 27px 14px 0;
+  border: 2px solid #fff;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+}
+
+.games-name .game:hover {
+  border: 2px solid #ff42a5;
+}
+
+.games-name .game:hover .game-title {
+  color: #ff42a5;
 }
 
 .games-name .game-title {
@@ -303,5 +318,6 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   margin-left: 16px;
+  transition: 0.4s all ease-in-out;
 }
 /* games name part css end */
