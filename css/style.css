@@ -202,8 +202,8 @@ body {
   justify-content: space-between;
 }
 
-.online-games .cards .card img {
-  margin-bottom: 24px;
+.online-games .cards .card p {
+  margin-top: 24px;
 }
 
 .online-games .card-description {
@@ -216,6 +216,59 @@ body {
 
 .online-games .third-card-description {
   max-width: 244px;
+}
+/* overlay */
+.online-games .cards .card .img {
+  position: relative;
+  max-height: 408px;
+  width: 350px;
+  height: 408px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.online-games .cards .card .img:hover .overlay {
+  opacity: 1;
+}
+
+.online-games .cards .card .img:hover img {
+  border: 4px solid #ff42a5;
+}
+
+.online-games .cards .card .img img {
+  border-radius: 25px;
+  border: 4px solid #fff;
+  transition: border 0.4s ease-in-out;
+}
+.online-games .cards .card .img .overlay {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 342px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  box-sizing: border-box;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.online-games .cards .card .img .overlay .play-button {
+  border: 0;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.online-games .cards .card .img .overlay h6 {
+  color: #ff42a5;
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 /* online games part css end */
 
