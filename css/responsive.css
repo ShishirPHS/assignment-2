@@ -69,6 +69,10 @@
   }
 
   /* play instantly part responsive css start */
+  .play-instantly {
+    margin-bottom: 0;
+  }
+
   .play-instantly .section-title {
     text-align: center;
   }
@@ -79,7 +83,7 @@
   }
 
   .play-instantly .images {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 0;
     display: flex;
     flex-direction: column;
@@ -98,6 +102,35 @@
     top: -230px;
     left: -185px;
     width: 55%;
+  }
+
+  /* games name part responsive css start */
+  .games-name {
+    margin-top: -116px;
+    padding: 70px 0;
+  }
+
+  .games-name .game {
+    margin: 0 5px 12px 0;
+    padding: 3px 8px 3px 3px;
+  }
+
+  .games-name .sixth {
+    margin-right: 0;
+  }
+
+  .games-name .last {
+    margin-right: 0;
+  }
+
+  .games-name .game .game-icon {
+    width: 24px;
+  }
+
+  .games-name .game-title {
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: 500;
   }
 }
 
